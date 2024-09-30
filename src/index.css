@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d7e3c2;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 600;
+}
+
+.div-header{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.input{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background: #a1aa92;
+    color: #fff;
+    /*display: flex;*/
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 1.6rem;
+}
+
+::placeholder{
+    color: #fff;
+    font-size: 18px;
+}
+
+.search-button{
+    padding: 2cap;
+    height: 100%;
+    background: #92c149;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+    /*display: flex;*/
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.show-more-button{
+    background-color: #92c149;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 3%;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    margin-left: 47%;
+    
+}
+
+.images{
+    object-fit: cover;
+    height: 300px;
+    margin: 0.4%;
+}
+
+.div-image-detail{
+    object-fit: cover;
+    height: 500px;
+    margin: 0.4%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-detail{
+    border-radius: 12px;
+}
